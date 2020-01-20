@@ -1,0 +1,335 @@
+h5{
+  font-size: 19px;
+}
+h1, h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+a{
+  color: white;
+}
+
+p{
+  font-size: 1.25em;
+  max-width: 30em;
+}
+
+.shadow{
+  -moz-box-shadow:    3px 3px 5px 1px #999999;
+  -webkit-box-shadow: 3px 3px 5px 1px #999999;
+  box-shadow:         3px 3px 5px 1px #999999;
+  width: 20%;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+/*##################################### Navigation bar ################################################## */
+nav li{
+  font-size: 1.125em;
+  text-align: right;
+  margin-right: 0.94em;
+}
+
+ul{
+  position: absolute;
+  right: 1em;
+}
+
+.something{
+  margin-top: 3.125em;
+}
+/*####################################### Section one - intro ########################################### */
+#intro{
+  margin-bottom: 18.75em;
+  padding-top: 6.25em;
+}
+
+.image{
+  height: 60%;
+  width: 35%;
+  position: absolute;
+  right: 9em;
+  top: 14em;
+}
+
+input{
+  padding: 10px;
+  margin-right: 25px;
+  -moz-box-shadow:    3px 3px 5px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+  box-shadow:         3px 3px 5px 1px #ccc;
+  border-radius: 5px;
+  width: 25%;
+}
+
+/*########################################## Section two - middle ####################################*/
+#middle{
+  padding: 3.125em;
+  margin-top: 9.375em;
+  padding-bottom: 100px;
+}
+
+.middle-link{
+  color: green;
+  text-decoration: underline;
+}
+
+.middle-link:hover{
+  color: green;
+  text-decoration: underline;
+}
+
+.card{
+  width: 30em;
+  -moz-box-shadow:    3px 3px 5px 1px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+  box-shadow:         3px 3px 5px 1px #ccc;
+  padding: 20px;
+}
+
+.profile{
+  border-radius: 100%;
+  height: 3.125em;
+  width: 3.125em;
+  float: left;
+  margin-right: 10px;
+}
+
+.testimonial{
+  font-size: 16px;
+}
+
+.image-middle{
+  height: 65%;
+  width: 35%;
+  position: absolute;
+  right: 6.25em;
+  top: 65.625em;
+}
+
+/*########################################## Section three - end #######################################*/
+#end{
+  background-color: #515585;
+  color: white;
+  padding: 100px;
+  position: relative;
+  padding-bottom: 9.375em;
+}
+
+.access{
+  display: inline-block;
+}
+
+.end-btn{
+  -moz-box-shadow:    3px 3px 5px 1px #595959;
+  -webkit-box-shadow: 3px 3px 5px 1px #595959;
+  box-shadow:         3px 3px 5px 1px #595959;
+  display: inline-block;
+  position: absolute;
+  width: 20%;
+  right: 345px;
+  top: 220px;
+}
+
+.end-input{
+  -moz-box-shadow:    3px 3px 5px 1px #595959;
+  -webkit-box-shadow: 3px 3px 5px 1px #595959;
+  box-shadow:         3px 3px 5px 1px #595959;
+  width: 40%;
+  display: inline-block;
+  position: absolute;
+  position: absolute;
+  right: 3.125em;
+  top: 9.375em;
+}
+
+/*############################################ Footer ###############################################*/
+footer{
+  background-color: #151965;
+  color: white;
+  padding: 20px;
+  padding-top: 6.25em;
+}
+
+.icon{
+  padding-right: 0.5em;
+}
+
+.row{
+  font-size: 19px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.fab{
+  margin-right: 5px;
+  padding: 5px;
+  color: white;
+  border: solid;
+  border-radius: 100%;
+}
+
+.logo-img{
+  margin-left: 15px;
+}
+
+.attribution a{
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    text-align: center;
+  }
+
+  input, button, img, p, h1{
+    display: block;
+  }
+
+  .shadow{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+
+  #intro{
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+
+  .image{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    right: auto;
+    top: 50px;
+  }
+
+  h1.intro{
+    position: relative;
+    top: 270px;
+  }
+
+  p.intro{
+    position: relative;
+    top: 300px;
+  }
+
+  input.intro{
+    position: relative;
+    top: 320px;
+  }
+
+  button.intro{
+    position: relative;
+    top: 330px;
+    z-index: 1;
+  }
+
+  #middle{
+    display: block;
+    position: relative;
+    top: 0;
+  }
+
+  .image-middle{
+    width: 80%;
+    height: 40%;
+    right: auto;
+    position: absolute;
+    top: 100px;
+  }
+
+  h1.middle{
+    position: relative;
+    top: 480px;
+  }
+
+  p.middle{
+    position: relative;
+    top: 510px;
+    text-align: left;
+  }
+
+  p.middle-p2{
+    position: relative;
+    top: 530px;
+    text-align: left;
+  }
+
+  div.middle{
+    position: relative;
+    top: 530px;
+    right: 20px;
+    width: 110%;
+    text-align: left;
+  }
+
+  .middle-link{
+    position: relative;
+    top: 500px;
+    display: inline;
+  }
+
+  .arrow-img{
+    position: relative;
+    top: 500px;
+    display: inline;
+    right: auto;
+  }
+
+  #end{
+    display: block;
+    position: relative;
+    top: 550px;
+  }
+
+  h2.end{
+    position: relative;
+    top: 5px;
+  }
+
+  p.end{
+    position: relative;
+    top: 10px;
+  }
+
+  .end-input{
+    position: relative;
+    top: 20px;
+    width: 90%;
+    right: 10px;
+  }
+
+  .end-btn{
+    position: relative;
+    top: 30px;
+    width: 90%;
+    right: 21px;
+  }
+
+  footer{
+    display: block;
+    position: relative;
+    top: 550px;
+    text-align: left;
+  }
+
+  .icon{
+    display: inline;
+  }
+
+  .social{
+    text-align: center;
+  }
+}
